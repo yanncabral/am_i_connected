@@ -18,9 +18,7 @@ setup_args = dict(
     download_url='https://pypi.org/project/am_i_connected/'
 )
 
-install_requires = [
-    'socket'
-]
+install_requires = []
 
 if __name__ == '__main__':
     setup(**setup_args, install_requires=install_requires)
