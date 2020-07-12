@@ -7,9 +7,9 @@ you can install this library using `pip`.
 
 example of use:
 ```python
-from am_i_connected import check as there_is_internet
+from am_i_connected import CheckThereIsConnection
 
-if there_is_internet():
+if CheckThereIsConnection():
     print('You are connected! Amazing!')
 else:
     print("Hey, you aren't connected...")
