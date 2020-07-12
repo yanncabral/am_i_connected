@@ -5,7 +5,7 @@ with open('README.md') as readme_file:
 
 setup_args = dict(
     name='am_i_connected',
-    version='0.1.2',
+    version='0.1.4',
     description='The simplest way to check if internet access is available.',
     long_description_content_type="text/markdown",
     long_description=README,
